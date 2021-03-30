@@ -1,0 +1,16 @@
+//In applications with many components, it’s very important to free up resources taken by the components when they are destroyed.
+
+ //when the component is rendered to the DOM for the first time. This is called “mounting” in React.
+ 
+ // when we want to clear to DOM produced by the rendering of the component/ mounting . this is called unmounting in react
+ 
+ when component mounts:
+  componentDidMount() {
+  }
+  The componentDidMount() method runs after the component output has been rendered to the DOM. 
+  
+  
+  when component unmounts:
+   componentWillUnmount() {
+  }
+  
